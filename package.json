@@ -1,0 +1,25 @@
+{
+  "name": "i211-cli-number-guessing",
+  "version": "1.0.0",
+  "description": "This is Cli based Number Gussing game",
+  "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": {
+    "cli-number-guessing": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.16"
+  },
+  "devDependencies": {
+
+    "@types/inquirer": "^9.0.7"
+  }
+}
